@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="mx-[100px] mb-[150px] flex flex-col">
+      <!-- HEADER -->
+      <header class="flex items-center justify-between mt-[50px]">
+        <div class="flex">
+          <div class="mr-[100px] font-bold text-[50px]">Fintech</div>
+          <div class="flex items-center gap-[50px] font-bold text-[16px]">
+            <a href="#" class="hover:underline hover:text-slate-700"
+              >Platform</a
+            >
+            <a href="#" class="hover:underline hover:text-slate-700">Company</a>
+            <a href="#" class="hover:underline hover:text-slate-700"
+              >Industrian</a
+            >
+            <a href="#" class="hover:underline hover:text-slate-700"
+              >Resources</a
+            >
+          </div>
+        </div>
+        <div class="flex gap-[30px]">
+          <button
+            type="button"
+            class="rounded-[30px] py-[10px] px-[40px] border-2 border-gray-400 font-bold hover:shadow-md hover:border-yellow-300 hover:text-yellow-600 hover:shadow-yellow-300"
+          >
+            SIGN IN
+          </button>
+          <button
+            type="button"
+            class="bg-black rounded-[30px] py-[10px] px-[40px] border-2 text-white font-bold hover:shadow-md hover:bg-slate-700 hover:shadow-slate-700"
+          >
+            SIGN UP
+          </button>
+        </div>
+      </header>
+      <!-- HEADER -->
+
+      <!-- CONTENT -->
+      <section class="mt-[100px] grid grid-cols-2">
+        <!-- SECTION-1 -->
+        <div class="flex flex-col w-[750px]">
+          <h1 class="text-[85px] font-bold mb-[50px] leading-none">
+            All banks are worried about fintech ind.
+          </h1>
+          <p class="text-[20px] text-slate-400">
+            We help you get paid any way you want, with the least amount of
+            hassle. It's just one of the reasons we are the most trusted name.
+          </p>
+
+          <!-- BUTTON -->
+          <div
+            class="flex justify-between w-[500px] rounded-[50px] p-[20px] border-2 border-slate-600 mt-[50px]"
+          >
+            <input
+              class="my-[-10px] rounded-[20px]"
+              type="text"
+              placeholder="Business Email"
+            />
+            <button
+              type="button"
+              class="bg-yellow-300 p-[20px] rounded-[30px] m-[-20px] w-[150px] font-bold hover:bg-yellow-600 hover:text-white"
+            >
+              Get Started
+            </button>
+          </div>
+          <!-- BUTTON -->
+
+          <!-- CARD -->
+          <div class="mt-[100px] flex flex-row justify-between gap-[20px]">
+            <div
+              class="flex flex-row justify-between gap-[20px] rounded-[20px] shadow-[10px_10px_10px_2px_rgba(0,0,0,0.1)] p-[10px] items-center"
+            >
+              <div class="bg-yellow-500 rounded-full w-[55px] h-[55px]">
+                asd
+              </div>
+              <div class="flex flex-col justify-between gap-[2px]">
+                <span class="text-slate-400">Total Earning</span>
+                <span class="font-bold text-[20px]">$22k</span>
+                <span class="text-slate-400">+10.80%</span>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-row justify-between gap-[20px] rounded-[20px] shadow-[10px_10px_10px_2px_rgba(0,0,0,0.1)] p-[10px]"
+            >
+              <div class="bg-yellow-500 rounded-full w-[55px] h-[55px]">
+                asd
+              </div>
+              <div class="flex flex-col justify-between gap-[2px]">
+                <span class="text-slate-400">Total Earning</span>
+                <span class="font-bold text-[20px]">$22k</span>
+                <span class="text-slate-400">+10.80%</span>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-row justify-between gap-[20px] rounded-[20px] shadow-[10px_10px_10px_2px_rgba(0,0,0,0.1)] p-[10px]"
+            >
+              <div class="bg-yellow-500 rounded-full w-[55px] h-[55px]">
+                asd
+              </div>
+              <div class="flex flex-col justify-between gap-[2px]">
+                <span class="text-slate-400">Total Earning</span>
+                <span class="font-bold text-[20px]">$22k</span>
+                <span class="text-slate-400">+10.80%</span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD -->
+        </div>
+        <!-- SECTION-1 -->
+
+        <!-- SECTION-2 -->
+        <div
+          class="flex justify-center bg-red-500 overflow-hidden rounded-[50px]"
+        >
+          <img
+            src="assets/myles-tan-RFgO9B_OR4g-unsplash.jpg"
+            alt="fintech"
+            width="100%"
+          />
+        </div>
+        <!-- SECTION-2 -->
+      </section>
+      <!-- CONTENT -->
+
+      <!-- CONTENT -->
+      <section class="flex flex-row justify-between mt-[150px] mx-[100px]">
+        <div class="w-[300px] grid justify-items-center">
+          <div class="w-[150px]">
+            <img src="assets/credit-card-svgrepo-com.svg" alt="" />
+          </div>
+          <p class="font-bold text-center text-[20px] leading-none">
+            Improved collection performance
+          </p>
+        </div>
+
+        <div class="w-[300px] grid justify-items-center">
+          <div class="w-[150px]">
+            <img src="assets/wallet-wallet-svgrepo-com.svg" alt="" />
+          </div>
+          <p class="font-bold text-center text-[20px] leading-none">
+            Convenient, local payment options
+          </p>
+        </div>
+
+        <div class="w-[300px] grid justify-items-center">
+          <div class="w-[150px]">
+            <img src="assets/dollar-svgrepo-com.svg" alt="" />
+          </div>
+          <p class="font-bold text-center text-[20px] leading-none">
+            The best price guarantee
+          </p>
+        </div>
+      </section>
+      <!-- CONTENT -->
+    </div>
+  </body>
+</html>
